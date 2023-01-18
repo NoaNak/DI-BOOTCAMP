@@ -1,0 +1,31 @@
+.first{
+    text-decoration: underline;
+}
+
+.media{
+    text-align: center;
+}
+
+img {
+    border: 8px solid red;
+    margin-left: 450px;
+}
+
+.second{
+    border: 1px solid; 
+    margin-left: 90px;
+    margin-right: 90px;
+    color: red;
+    text-align: center;
+    font-weight: bold; 
+    /* pour mettre en text en <B> au milieu */
+}
+
+.three, .fore, .five, .six {
+    border: 1px solid;
+}
+
+table{
+    margin-left: 90px;
+    margin-right: 90px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.page  {
+    border: 2px solid grey;
+    height: 900px;
+    width: 900px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 2fr 6fr;
+    gap: 10px 60px;
+}
+
+.left  {
+  border: yellow;
+  background-color: lightyellow;
+  height: 900px;
+
+}
+
+img {
+     border-radius: 25%;
+     width: 80px;
+     padding-left: 60px;
+     padding-top: 80px;
+}
+
+#name  {
+    padding-left: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    margin-top:  10px; ;
+    margin-bottom: 0px;
+}
+#name2  {
+    padding-left: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    margin-top:  0px; ;
+    margin-bottom: 5px;
+}
+
+#metier {
+   margin-top: 5px;
+   text-align: center;
+   opacity: 0.60;
+}
+
+#mail{
+    padding-left: 50px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.70;
+    font-size: 10px;
+}
+
+#number {
+    padding-left: 75px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.70;
+    font-size: 10px;
+}
+
+#adress{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.70;
+    font-size: 10px;
+   text-align: center;
+}
+
+.logo{
+    text-align: center;
+   margin: 0px;
+   opacity: 0.60;
+}
+
+i {
+    opacity: 1;
+}
+
+.right{
+ padding-top: 30px;
+
+ display: flex;
+ flex-direction: column;
+ font-family: 'Open Sans', sans-serif;
+
+}
+
+.form2  {
+    height: 40px;
+    width: 40px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 2fr 6fr;
+    gap: 20px 90px;
+    font-size: 10px;
+}
+
+
+    /* pour cree des fraction, pour les repeter plusieurs fois "repeat"(2, 1fr) */
+    /* grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px */
+    /* le nombre de ligne et colone */
+    /* c'est l'espace entre les elements, horizontalPX verticalPX */
+    /* je veux que mon education s'aggrandisse et s'etale sur une deuxieme colonne */
+
+
+    /* a present ne plus utiliser les px car c pas adapter au tel ou autre, utiliser vh ou %
+    pour font-size,margin ou padding on utilise em ou rem */

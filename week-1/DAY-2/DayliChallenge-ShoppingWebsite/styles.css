@@ -1,0 +1,43 @@
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 200px;
+}
+
+.items{
+    display:flex;
+}
+
+li {
+    list-style: none;
+    padding:30px;
+    color: white;
+    text-decoration: none 
+}
+
+/* body{
+    margin-top: 100px;
+}
+
+ul{
+    background-color: black;
+}
+
+i{
+    color: white;
+    float: left;
+}
+
+a{
+    color: white;
+    margin-left: 85%;
+} */

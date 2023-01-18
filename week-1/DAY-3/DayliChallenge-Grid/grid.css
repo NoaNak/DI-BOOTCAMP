@@ -1,0 +1,25 @@
+
+body{
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(4, 1fr); */
+} 
+div.container{
+    display: flex;
+    justify-content: space-between;
+}
+div.center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.yellow {
+    height : 30px;
+    width: 30px;
+    margin: 20px;
+    border:1px solid black;
+    /* display:flex;  */
+    background-color: yellow;
+}

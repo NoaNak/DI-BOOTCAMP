@@ -1,0 +1,43 @@
+
+.container{
+    border: 1px solid purple;
+    margin-left: 400px;
+    margin-right: 200px;
+    padding: 20px;
+    
+ }
+
+h2{
+    margin-top: -5px;
+    text-align: center;
+ }
+
+.psw{
+    margin-left: 59% ;
+ }
+
+.pswd{
+    text-decoration: none;
+    color: black;
+ }
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn{
+    background-color:lightgray;
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+ 
+

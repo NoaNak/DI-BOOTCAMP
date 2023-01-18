@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 1px;
+}
+
+section{
+    border: 3px solid black;
+    height: 70vh;
+    width: 70%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* justify-content: space-between; */
+    /* display: flex;
+    flex-direction: column; */
+    /* pour faire les collones */
+}
+
+section div{
+    border: 1px solid black;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.red1, .red3, .blue2 {
+    background-color: lightcoral;
+}
+
+.blue1, .blue3, .red2{
+    background-color: lightblue;
+}
+
+.orange{
+    background-color: lightsalmon;
+    grid-column: 1 / span 2;
+}
+

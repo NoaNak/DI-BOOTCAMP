@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    /* pour faire les collones */
+    height: 30vh;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+section div{
+    background-color: orange;
+    border: 1px solid red;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2{
+    padding: 10px;
+    width: 400px;
+    align-self: center;
+}
