@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+body{
+    background-image: url("fond-noir.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.items{
+    display:flex;
+    margin-left: 30%;
+}
+
+li {
+    list-style: none;
+    padding:30px;
+    color: white;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+

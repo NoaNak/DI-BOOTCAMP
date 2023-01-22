@@ -1,0 +1,15 @@
+/* body{
+  background-image: url("fond-noir.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ */
+ *{
+  background-color: black;
+ }
+ 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: white;
+}
+
+
