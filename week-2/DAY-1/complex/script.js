@@ -58,3 +58,19 @@ myFruits.splice(2, 2)
 
 
 console.log(myFruits);
+
+
+// switch instruction permet l'exécution d'un bloc de code spécifique en fonction de l'évaluation d'une expression
+// ex: switch (expression){
+// }
+
+// break instruction est utilisée pour quitter la structure de commutateur après l'exécution d'un cas. S'il n'est pas
+// utilisé, tous les cas suivants seront exécutés jusqu'à ce que le programme rencontre une break instruction ou l'accolade de fin } de la structure.
+
+// Le default: est un type spécial de cas et est exécuté lorsqu'aucun des cas ne correspond à l'expression évaluée.
+
+// L' || opérateur renverra la première valeur véridique de tous les opérandes, ou simplement la dernière valeur si tous sont faux.
+
+// L' &&opérateur renverra faux dès qu'il aura une valeur fausse et renverra la dernière valeur vraie si toutes les valeurs sont vraies.
+
+// Le mot- defaultclé spécifie le code à exécuter s'il n'y a pas de correspondance de casse :
