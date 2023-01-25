@@ -77,7 +77,7 @@ console.log(trip);
 const sentenceTrip = `In ${trip["date"]} I go to ${trip["city"]}`;
 console.log(sentenceTrip);  //show the value of the variable
 
-//c2. hange the valueof the key time in the trip object
+//2. change the valueof the key time in the trip object
 trip["time"] = 2;
 console.log(trip);
 // {
@@ -155,4 +155,4 @@ const user = {
 // /birthday/i est une expression régulière.
 
 // birthday est un motif (à utiliser dans une recherche).
-// iest un modificateur (modifie la recherche pour qu'elle soit insensible à la casse).
+// i est un modificateur (modifie la recherche pour qu'elle soit insensible à la casse).
