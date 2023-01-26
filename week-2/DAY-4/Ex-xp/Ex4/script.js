@@ -23,14 +23,14 @@ function myBill(){
         if (item in stock){
             if (stock[item] > 0){
             total += prices[item];
+            } else {
+             console.log(`${item} is not in stock`);
+            } 
         } else {
-            console.log(`${item} is not in stock`);
-        } else {
-            console.log(`i don't sell ${item}`);
+             console.log(`i don't sell ${item}`);
         }
     }
 }
 console.log(myBill());
-}
 
 // do a verification wth lyse/shaun
