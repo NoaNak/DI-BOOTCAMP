@@ -1,26 +1,16 @@
-// i do all this wth internet bc im not understand 
+//1. retrieve the form
+const sphereform = document.querySelector("#Myform");
 
-myElement.addEventListener("click", function(){
-    x += 10;
-    y += 10;
-    myElement.style.left = x + "px";
-    myElement.style.top = y + "px";
-});
-myElement.addEventListener("mouseover", function(){
-    size += 5;
-    myElement.style.fontSize = size + "px";
-});
-myElement.addEventListener("mouseout", function(){
-    color = (color == "blue") ? "red" : "blue";
-    myElement.style.backgroundColor = color;
-});
-myElement.addEventListener("dblclick", function(){
-    size = 16;
-    x = 50;
-    y = 50;
-    color = "blue";
-    myElement.style.left = x + "px";
-    myElement.style.top = y + "px";
-    myElement.style.backgroundColor = color;
-    myElement.style.fontSize = size + "px";
-});
+//2. add an event listener of submit on the form not on the button
+sphereform.addEventListener("submit", calculateVolume);
+
+//3. when the form is submitted this function is called
+function calculateVolume(evt) {
+    evt.preventDefault(); // prevent the form submission from rafraiching the page
+    const inputRadiusValue = evt.target.radius.value; 
+    const volumeResult = inputRadiusValue**3;
+    //retrieve the value of the first inputradius
+    //const volumeResult = inputRadiusVolume**3 // calculate some kind of formula
+    const inputVolume = evt.target.volume;
+    inputVolume.value = volumeResult;
+}
