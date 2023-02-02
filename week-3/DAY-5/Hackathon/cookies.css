@@ -1,63 +1,38 @@
 
-/* header{
-	width:auto;
-	height: 6vh;
-	background-color:black;
-} 
-
-ul{
-    list-style-type: none;
-    margin: 0 auto;
-}
-
-li{
-    float: right;
-}
-
- */
-
-
-
-
- 
-
-body{
-    background-color: #FFCCAA;
+ body{
+    background-color: #669184;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #6BD5B5;
     margin-left: 90%;
-    /* border: 1px solid #D4956A; */
     border-radius: 5px;
-    /* background-color: #D4956A;  */
     line-height: 25px;
 }
 
 a:hover{ 
-    background-color:  #D4956A; 
+    background-color:  whitesmoke; 
 }
 
 #sidebar{
-    margin-left: 100px;
+    margin-left: 50px;
     float: left;
-    border: 4px #D4956A solid;
     border-radius: 10px;
-    box-shadow: 7px 7px 20px white;
+    box-shadow: 7px 7px 20px #00D091;
     padding: 6px;
     font-family: 'Solitreo', cursive;
-    line-height: 35px;
+    line-height: 30px;
     margin-top: 170px;
-    color: #804015;
-    background-color: #D4956A;
+    color: #165844;
+    background-color: #6BD5B5;
 }
 
 .container{
     margin-left: 300px;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 5%;
 }
   
@@ -68,15 +43,15 @@ header{
 
 h2{
     font-family: 'Solitreo', cursive;
-    margin-left: 20%;
+    margin-left: 26%;
     text-decoration: underline;
-    color: #552200;
+    color: #014248;
 }
 
 p{
     text-align: center;
     font-family: 'Solitreo', cursive;
-    color: #804015;
+    color: #014248;
     text-decoration:underline;
 }
 
@@ -98,28 +73,27 @@ p{
 
 .cake{
     border-radius: 20px;
-    box-shadow: 7px 7px 20px white;
-    margin-left: 68px;
-    margin-top: -300px;
+    box-shadow: 7px 7px 20px #00D091;
+    margin-left: 50px;
+    margin-top: -90px;
 }
 
 dl{
     text-align: center;
     line-height: 20px;
     font-family: 'Itim', cursive;
-    color: #804015;
+    color: whitesmoke;
 }
 
 dt{
     margin-left: 40px;
-    color: #552200;
+    color: #014248;
 }
 
 .yummy{
-    text-align: center;
     text-decoration: none;
-    color: white;
-    margin-left: 11%;
+    color: black;
+    margin-left: 51%;
     font-family: 'Itim', cursive;
 
 } 
