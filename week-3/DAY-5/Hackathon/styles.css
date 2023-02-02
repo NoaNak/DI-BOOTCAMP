@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid grey; */
+    /* border-radius: 10px; */
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10%;
+}
+  
+header{
+    text-align: center;
+    line-height: 70px;
+}
+  
+h1{
+    font-family: 'Solitreo', cursive;
+}
+
+hr{
+    text-align: center;
+    border: white 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Solitreo', cursive;
+    border-radius: 10px;
+}
+
+a:hover{ 
+    background-color:  white; 
+}
+
+
+img {
+    margin-top: 20px;
+    margin-left: 30px ;
+    box-shadow: 8px 8px 10px white;
+    max-width: 70%; 
+    border-radius: 20px;    
+}

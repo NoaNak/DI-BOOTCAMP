@@ -1,0 +1,120 @@
+
+/* header{
+	width:auto;
+	height: 6vh;
+	background-color:black;
+} 
+
+ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+li{
+    float: right;
+}
+
+ */
+
+body{
+    background-color: #FFCCAA;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    /* border: 1px solid #D4956A; */
+    border-radius: 5px;
+    /* background-color: #D4956A;  */
+    line-height: 25px;
+}
+
+a:hover{ 
+    background-color:  #D4956A; 
+}
+
+#sidebar{
+    margin-left: 100px;
+    float: left;
+    border: 4px #D4956A solid;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px white;
+    padding: 6px;
+    font-family: 'Solitreo', cursive;
+    line-height: 35px;
+    margin-top: 170px;
+    color: #804015;
+    background-color: #D4956A;
+}
+
+.container{
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 5%;
+}
+  
+header{
+    text-align: center;
+    line-height: 70px;
+}
+
+h2{
+    font-family: 'Solitreo', cursive;
+    margin-left: 20%;
+    text-decoration: underline;
+    color: #552200;
+}
+
+p{
+    text-align: center;
+    font-family: 'Solitreo', cursive;
+    color: #804015;
+    text-decoration:underline;
+}
+
+.alreadyBought{
+    text-decoration: line-through;
+}
+
+.fa-duotone .fa-check{
+   width: 5px;
+   height: 5px;
+   color: green;
+}
+
+.fa-solid .fa-xmark-large{
+    width: 5px;
+    height: 5px;
+    color: red;
+}
+
+.cake{
+    border-radius: 20px;
+    box-shadow: 7px 7px 20px white;
+    margin-left: 68px;
+    margin-top: -300px;
+}
+
+dl{
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Itim', cursive;
+    color: #804015;
+}
+
+dt{
+    margin-left: 40px;
+    color: #552200;
+}
+
+.yummy{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 11%;
+    font-family: 'Itim', cursive;
+
+}
