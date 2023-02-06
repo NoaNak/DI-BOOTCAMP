@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+    border: white 1px solid;
+    background-color: orange;
+}
+
+p{
+    color: orange;
+    font-family: 'Solitreo', cursive;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.youtube{
+    padding-left: 30%;
+    margin-top: 10%;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    }
+
+.dynamic-background {
+    background: linear-gradient(to right, #f765a5, #7dc2f6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }

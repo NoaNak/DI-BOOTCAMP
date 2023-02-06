@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='youtube.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+    <p><b>LEARN TO COOK A PANCAKES ONLINE !</p>
+    <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/vkcHmpKxFwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<body>
+    <a class="nav-link active" aria-current="page" href="pancakes.html">Back to the recipe</a>
+    <script>
+        const body = document.querySelector('body');
+        let color = 0;
+        setInterval(() => {
+          color += 10;
+          if (color > 360) {
+            color = 0;
+          }
+          body.style.backgroundColor = `hsl(${color}, 100%, 50%)`;
+        }, 100);
+      </script>
+          <!-- <script src='youtubeCheese.js'></script> -->
+</body>
+</html>
