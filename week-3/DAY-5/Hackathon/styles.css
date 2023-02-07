@@ -9,7 +9,7 @@ body{
     /* border-radius: 10px; */
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
   
 header{
@@ -47,3 +47,22 @@ img {
     max-width: 70%; 
     border-radius: 20px;    
 }
+
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    color: white ;
+    text-align: center;	
+    line-height: 1px;
+    font-size: 17px;
+    }
+    
+.name {
+    color: brown;
+}
+

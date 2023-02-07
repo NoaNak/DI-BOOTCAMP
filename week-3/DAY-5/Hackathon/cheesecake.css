@@ -1,3 +1,6 @@
+/* .li:before {
+    content:”\00A3″; font-family: “FontAwesome”; font-weight: normal; 
+} */
 
 /* header{
 	width:auto;
@@ -17,10 +20,6 @@ li{
  */
 
 
-
-
- 
-
 body{
     background-color: #FFCCAA;
     background-repeat: no-repeat;
@@ -28,17 +27,12 @@ body{
 }
 
 a{
-    text-decoration: none;
-    color: white;
-    margin-left: 90%;
-    /* border: 1px solid #D4956A; */
-    border-radius: 5px;
-    /* background-color: #D4956A;  */
-    line-height: 25px;
+    text-decoration: none;    
+    color: #D4956A;
 }
 
 a:hover{ 
-    background-color:  #D4956A; 
+    background-color:  #804015; 
 }
 
 #sidebar{

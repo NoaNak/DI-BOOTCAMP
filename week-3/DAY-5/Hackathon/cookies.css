@@ -6,15 +6,12 @@
 }
 
 a{
-    text-decoration: none;
-    color: #6BD5B5;
-    margin-left: 90%;
-    border-radius: 5px;
-    line-height: 25px;
+    text-decoration: none;    
+    color: #669184;
 }
 
 a:hover{ 
-    background-color:  whitesmoke; 
+    background-color:  green; 
 }
 
 #sidebar{
