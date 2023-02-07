@@ -1,38 +1,32 @@
-/* .li:before {
-    content:”\00A3″; font-family: “FontAwesome”; font-weight: normal; 
-} */
-
-/* header{
-	width:auto;
-	height: 6vh;
-	background-color:black;
-} 
-
-ul{
-    list-style-type: none;
-    margin: 0 auto;
+nav{
+    margin-left: 80%;
 }
 
-li{
-    float: right;
+
+.logo{
+    /* margin-top: 5%; */
+    margin-right: 10px;
 }
 
- */
-
-
-body{
-    background-color: #FFCCAA;
-    background-repeat: no-repeat;
-    background-size: cover;
+button{
+    background-color: whitesmoke;  
+    border: 1px solid #d8671b; 
+    border-radius: 5px;
 }
 
 a{
-    text-decoration: none;    
+    text-decoration: none; 
     color: #D4956A;
 }
 
 a:hover{ 
     background-color:  #804015; 
+}
+
+body{
+    background-color: #FFCCAA;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sidebar{
@@ -117,3 +111,17 @@ dt{
     font-family: 'Itim', cursive;
 
 } 
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    margin-left: 12%;
+    padding-bottom: 2px;
+    color: white ;
+    text-align: center;	
+    line-height: 1px;
+    font-size: 17px;
+    margin-top: -30px;
+}

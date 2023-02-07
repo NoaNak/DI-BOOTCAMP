@@ -1,3 +1,12 @@
+nav{
+    margin-left: 80%;
+}
+
+button{
+    background-color: whitesmoke;  
+    border: 1px solid #69113E; 
+    border-radius: 5px;
+}
 
 body{
     background-color: #D28CB0;
@@ -11,7 +20,7 @@ a{
 }
 
 a:hover{ 
-    background-color:  white; 
+    background-color:  #D28CB0; 
 }
 
 #sidebar{
@@ -96,4 +105,18 @@ dt{
     color: #69113E;
     margin-left: 11%;
     font-family: 'Itim', cursive;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    margin-left: 12%;
+    padding-bottom: 2px;
+    color: white ;
+    text-align: center;	
+    line-height: 1px;
+    font-size: 17px;
+    margin-top: -30px;
 }

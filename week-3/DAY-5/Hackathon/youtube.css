@@ -1,3 +1,4 @@
+
 a{
     text-decoration: none;
     color: white;
@@ -6,11 +7,11 @@ a{
     background-color: orange;
 }
 
-p{
-    color: orange;
+h2{
+    color: white;
     font-family: 'Solitreo', cursive;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 40px;
     margin-top: 10px;
     margin-left: 90px;
 }
@@ -23,7 +24,7 @@ p{
 body {
     height: 100vh;
     background-color: #000;
-    }
+}
 
 .dynamic-background {
     background: linear-gradient(to right, #f765a5, #7dc2f6);
@@ -32,4 +33,4 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-  }
+}
