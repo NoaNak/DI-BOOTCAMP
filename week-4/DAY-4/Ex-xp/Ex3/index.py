@@ -1,13 +1,10 @@
 # Write a function called describe_city() that accepts the name of a city and its country as parameters.
 
-def describe_city(paris, France):
+def describe_city(city, country = "France"):
     print(f"{city} is in {country}")
     print(describe_city)
 
-city = "paris" 
-country = "France"
-
-describe_city()
+describe_city("paris")
 
 
 # The function should print a simple sentence, such as "<city> is in <country>".
