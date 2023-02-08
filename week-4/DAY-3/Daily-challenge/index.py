@@ -1,8 +1,14 @@
-dict = {}
-word = input("write a word: ")
-for i, letter in enumerate(word):
-    if letter not in  dict:
-        dict[letter] = []
-        dict[letter].append(i)
+# dict = {}
+user = input("Write a word: ")
 
-print(dict)
+result = {}
+
+for i, letter in enumerate(user):
+    # (i) est le numero
+    if letter in result:
+       result[letter].append(i)
+
+    else: 
+         result[letter] = [i]
+
+print(result)

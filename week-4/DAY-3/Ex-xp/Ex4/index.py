@@ -1,11 +1,24 @@
 users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
-numbers = list(range(len(users)))
-print(numbers)
-link = dict(zip(users, numbers))
-print(link)
 
-link2 = dict(zip(numbers, users))
-print(link2)
+disney_users_A = {}
 
-link3 = dict(zip(sorted(users), numbers))
-print(link3)
+for i, value in enumerate(users):
+    disney_users_A[name] = i
+
+print(disney_users_A)
+
+disney_users_B = {}
+
+for i, value in enumerate(users):
+    disney_users_B[i] = name
+
+print(disney_users_B)
+
+disney_usersC = {}
+
+users.sort()
+
+for i, value in enumerate(users):
+    disney_users_C[i] = name
+
+print(disney_usersB)
