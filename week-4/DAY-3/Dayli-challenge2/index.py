@@ -16,7 +16,7 @@ for key in items_purchase:
 
     item: str = "".join(item_list) #si je veux coller les therme dune liste alors jajoute "".join
 
-    item: int = int(item) # convert into a number
+    item: int = (item) # convert into a number
 
     items_purchase[key] = item
 
