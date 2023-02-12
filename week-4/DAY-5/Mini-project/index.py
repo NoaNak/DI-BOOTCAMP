@@ -1,68 +1,22 @@
-# cells
+# nstructions
+# Écrivez un programme qui accepte une séquence de mots séparés par des virgules en entrée et imprime les mots dans une séquence séparée par des virgules après les avoir triés par ordre alphabétique.
+# Utiliser la compréhension de liste
 
-    ################
-    # 1 #  2  #  3 #
-    ################
-    # 4 #  5  #  6 #
-    ################
-    # 7 #  8  #  9 #
-    ################
+class Cat:
+    def __init__(self, cat_name, cat_age):
+        self.name = cat_name
+        self.age = cat_age
 
-# rows and columns
+shlomo = Cat(cat_name='Shlomo', cat_age=4)
+mizzy = Cat(cat_name='Mizzy', cat_age=3)
+batya = Cat(cat_name='Batya', cat_age=5)
 
-#      1    2    3
-    ################
-#1  #    #   #     #
-    ################
-#2  #    #   #     #
-    ################
-#3  #    #   #     #
-    ################
+def oldest_cat(*cats):
+    oldest_cat = cats[0]
+    for cat in cats:
+        if cat.age > oldest_cat.age:
+            oldest_cat = cat
 
-# 9 choices - 
- 
-# dict I - {1(cell): , 2: , 3: ,4: ...}
+    print(f"Oldest cat: {oldest_cat.name}")
 
-# dict II - {1(row): {1(column): ,2(column):, 3(column):},
-#            2(row): {1: , 2: , 3:},
-#            3(row): {1:, 2:, 3:}}
-
-# list - [1(cell), 2, 3, 4, 5, 6, 7, 8, 9]
-choices = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-def display_board(choices):
-    board_gui = f"""
-    #############
-    # {choices[0]} # {choices[1]} # {choices[2]} #
-    #############
-    # {choices[3]} # {choices[4]} # {choices[5]} #
-    #############
-    # {choices[6]} # {choices[7]} # {choices[8]} #
-    #############
-    """
-    print(board_gui)
-def switch_players(player: str):
-    if player == 'X':
-        return 'O'
-    else:
-        return 'X'
-def player_input(player):
-    player_choice = None
-    while player_choice not in choices:
-        player_choice = int(input(f"Player {player} Your choice: "))
-    print("Player chose:", player_choice)
-    choices[player_choice] = current_player
-    display_board(choices)
-while "i" not in "":
-    current_player = 'X'
-    player_input(current_player)
-    current_player = switch_players(current_player)
-    player_input(current_player)
-
-
-
-
-
-
-
-
-
+oldest_cat(batya, shlomo, mizzy)
