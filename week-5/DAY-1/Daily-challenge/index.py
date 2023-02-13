@@ -14,10 +14,12 @@ class Farm:
         return(list(self.dic))
 
     def get_short_info(self):
+        animals_joigned: ', '.join(self.get_animals_type())
         print(f"{self.name} has {self.get_animals_type()}")
 
 Noa = Farm("noa")
 Noa.add_animal("lili", 2)
 Noa.get_short_info()
+Noa.animals_joigned
 
 
