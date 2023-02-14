@@ -17,7 +17,7 @@ dict = {}
 
 def __add__(amount):
     for i in range(amount):
-        dict["name"] = name 
+        dict["name"] = name
         dict["email"] = email
         dict["address"] = address
         users.append(dict)
