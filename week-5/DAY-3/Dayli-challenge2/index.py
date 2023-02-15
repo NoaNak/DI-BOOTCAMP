@@ -4,9 +4,9 @@ translate = Translator(from_lang="french", to_lang="english")
 
 french_words = ["Bonjour", "Au revoir", "Bienvenue", "A bientôt"] 
 
-dict = {}
+dict1 = {}
 
 for word in french_words:
-    dict [translate.translate(word)] = word
+    dict1[translate.translate(word)] = word
 
-print(dict)
+print(dict1)
