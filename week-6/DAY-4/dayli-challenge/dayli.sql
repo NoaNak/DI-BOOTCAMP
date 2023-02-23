@@ -5,14 +5,14 @@ create table items(
 );
 
 create table users(
-	user_id serial primary key not null,
+	user_id serial primary key,
 	first_name varchar (100) not null
 );
 
 create table product_orders(
 	order_id int not null,
 	order_date date not null,
-	item_id int not null,
+	item_id  serial primary key,
 	user_id int not null,
 	quantity int not null,
 	constraint fk_user_id
