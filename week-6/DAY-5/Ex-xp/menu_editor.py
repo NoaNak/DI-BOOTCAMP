@@ -1,10 +1,8 @@
 from index import MenuItem, run_query
 
-
 def load_manager(name, price):
     return MenuItem(name, price)
-
-
+    
 def show_user_menu():
     out = """
     (1) To add a new item 
