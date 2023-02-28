@@ -28,7 +28,7 @@ HOSTNAME = 'localhost'
 
 connection = psycopg2.connect(host=HOSTNAME, user=USERNAME, password=PASSWORD, dbname=DATABASE)
 cursor = connection.cursor() # the cursor is the tool to run queries
-query = 'select * from countries'
+query =  'select * from countries'
 cursor.execute(query)
 results = cursor.fetchall()
 # fetchall = prend tout ce que jai ecris avant et me limprime(print sur sql)
