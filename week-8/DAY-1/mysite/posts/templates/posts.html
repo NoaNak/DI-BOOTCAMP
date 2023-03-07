@@ -7,10 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{author}}</h1>
+    {% for post in posts%}
     <hr>
-    <h2>{{title}}</h2>
+    <h1>{{post.author}}</h1>
     <hr>
-    <p>{{body}}</p>
+    <h2>{{post.title}}</h2>
+    <hr>
+    {{post.body}}
+    <hr>
+    {% endfor %}
 </body>
 </html>

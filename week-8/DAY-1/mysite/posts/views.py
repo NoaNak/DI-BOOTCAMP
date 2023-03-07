@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
 
 
 def some_text(request): 
@@ -18,10 +19,9 @@ def person_info(request, i:int):
 
 
 def posts(request):
-    author = 'Noa'
-    title = 'My first post'
-    body = 'Some text about my post etc'
-    context: dict = {'author': author, 'title': title, 'body': body}
+
+    all_posts = Post.objects.all()
+    context: dict = {'posts': all_posts}
     # context - data that goes to html 
     # template = an html file
 
