@@ -1,0 +1,23 @@
+
+# - Commands
+
+# - to import the models
+#     >> from info.models import Family, Animal
+
+# - to get specific family
+#     >> caninae = Family.objects.get(name='Caninae')
+
+# - to get all objects from a model
+#     >> Family.objects.all()
+
+# - to get all animals from a family
+#     >> caninae = Family.objects.get(name='Caninae')
+#     >> caninae.animal_set.all()
+
+# - to save object into database
+#     >> mammalia = Family(name='Mammalia')
+#     >> mammalia.save()
+
+ - to update/change object
+     >> mammalia.name = 'MammaLS'
+  >> mammalia.save()

@@ -1,9 +1,28 @@
 from django.db import models
 
-# Create your models here.
-
 class Post(models.Model):
 
-    author = models.CharField(max_length=50) # varchar c sur sql et charfield sur django
-    title = models.CharField(max_length=50) 
+    author = models.CharField(max_length=50)
+    title = models.CharField(max_length=50) # varchar
     body = models.TextField()
+    
+    def __str__(self):
+        return self.author + ", " + self.title
+    
+# One - to - One: models.OneToOneField
+class Addition(models.Model):
+
+    image = models.URLField()
+    styling = models.CharField(max_length=250)
+    post = models.OneToOneField(Post, on_delete=models.CASCADE, related_name='addition')
+
+class Category(models.Model):
+
+    image = models.URLField()
+    styling = models.CharField(max_length=250)
+    post = models.OneToOneField(Post, on_delete=models.CASCADE, related_name='categories')
+
+def __str__(self):
+    return self.post.title
+
+# Many - to - Many: models.ManyToManyField

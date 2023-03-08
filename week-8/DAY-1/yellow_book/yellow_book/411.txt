@@ -1,0 +1,23 @@
+1) start project V
+2) cd into project V
+3) start new app - phonenumbers V (python manage.py startapp <app_name>)
+4) in settings.py, add phonenumbers to INSTALLED_APPS V
+5) in PgAdmin, create database 411 V
+6) in settings.py, connect to database V
+7) create models V
+8) makemigrations V
+9) migrate
+to add data
+10) in shell, import the model
+11) add objects to model and save into database
+- create super user (admin)
+    >>> python manage.py createsuperuser
+    
+    specify username
+    specify password
+12) in admin.py, register the models
+    from .models import Person
+    # Register your models here.
+    admin.site.register(Person)
+13) runserver, go to /admin page and login 
+14) add new info to Person model

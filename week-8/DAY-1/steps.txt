@@ -1,21 +1,45 @@
-0) Virtual environments
+1) Activate virtual env
+2) django-admin startproject animals
+    - cd into animals
+3) python manage.py startapp info
+4) In settings.py add "info" to INSTALLED_APPS
+5) created the data (data.json)
+6) in views.py, created function read_data to read data.json
+    def read_data():
+    filename = 'data.json'
 
-1) Create a project
-    - django-admin startproject <project_name>
+    with open(filename, 'r') as file:
+        data = json.load(file)
 
-2) Create application inside the project
-    - cd into the project folder (where manage.py)
-    - python manage.py startapp <posts>
+    return data
 
-3) Run website
-    - python manage.py runserver
-    - copy the link (http://127.0.0.1:8000/) into browser
+7) in views.py, created view animals_list
+8) created the templates folder inside info app
+9) inside templates folder, created the animals.html
+10) in urls.py, added path to the animals_list view
 
-4) add Templates (html files) for views 
-    - inside the application folder create 'templates' folder
-    - inside 'templates' create html files
 
-5) Add the app to the INSTALLED_APPS inside mysite.settings
-    - INSTALLED_APPS = [
-        "posts",
 
+
+- Commands
+
+- to import the models
+    >> from info.models import Family, Animal
+
+- to get specific family
+    >> caninae = Family.objects.get(name='Caninae')
+
+- to get all objects from a model
+    >> Family.objects.all()
+
+- to get all animals from a family
+    >> caninae = Family.objects.get(name='Caninae')
+    >> caninae.animal_set.all()
+
+- to save object into database
+    >> mammalia = Family(name='Mammalia')
+    >> mammalia.save()
+
+- to update/change object
+    >> mammalia.name = 'MammaLS'
+    >> mammalia.save()

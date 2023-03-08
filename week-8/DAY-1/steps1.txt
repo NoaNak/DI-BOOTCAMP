@@ -1,0 +1,21 @@
+0) Virtual environments
+
+1) Create a project
+    - django-admin startproject <project_name>
+
+2) Create application inside the project
+    - cd into the project folder (where manage.py)
+    - python manage.py startapp <posts>
+
+3) Run website
+    - python manage.py runserver
+    - copy the link (http://127.0.0.1:8000/) into browser
+
+4) add Templates (html files) for views 
+    - inside the application folder create 'templates' folder
+    - inside 'templates' create html files
+
+5) Add the app to the INSTALLED_APPS inside mysite.settings
+    - INSTALLED_APPS = [
+        "posts",
+
