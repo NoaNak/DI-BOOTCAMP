@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from gifs.views import homepage, category, categories
+from gif_app.views import homepage, category, categories
 
 urlpatterns = [
     path("admin/", admin.site.urls),

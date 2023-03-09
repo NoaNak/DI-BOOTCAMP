@@ -1,0 +1,22 @@
+1) activate venv
+2) start project giphy
+3) cd into project folder
+4) add app_gif app
+5) in setting.py, add 'gif_app'to      installed_apps
+6) in setting.py, specify database(after creating database in Pgadmin)
+7) in gif_app.models.py, add Category, add Gif models
+8) makemigrations, migrate
+9) create superuser
+10) in gif_app.admin.py, register Category, Gif models
+11) runserver, in admin page add Categories and gifs
+
+Views 
+
+url - "homepage/"
+
+view name: gifs
+
+1) in views.py, def homepage
+2) context - Gif.objects.all()
+3) templates/homepage.html
+4) specify url 
