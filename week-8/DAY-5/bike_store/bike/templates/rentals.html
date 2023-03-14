@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{%block content%}
+
+    {%for rental in rentals%}
+
+        <a href="{%url 'rental' rental.id%}">{{rental}}</a>
+
+    {%endfor%}
+
+{%endblock%}
