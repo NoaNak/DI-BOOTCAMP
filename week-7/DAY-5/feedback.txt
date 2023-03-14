@@ -1,0 +1,6 @@
+-The database was not uploaded...
+-The idea of the project is good, but it is a little simple, you can 
+create more graphs and comparisons.
+-The code is hardcoded to just 2 countries, it couldve been better to use 
+a variable which would take the users input and let the user choose which 
+countries he wants to compare. 
