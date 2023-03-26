@@ -1,10 +1,14 @@
 from django.shortcuts import render, redirect
 from django.urls import reverse
-from .forms import AddFilmForm, AddDirectorForm
-from .models import Film
+from .models import Film # Director, Category
+from .forms import AddDirectorForm, AddFilmForm
+# from django.views.generic import FormView, ListView
+# from django.views.generic.edit import CreateView, DeleteView, UpdateView
+# from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
+
 
 # Create your views here.
-
 
 def add_film(request):
     if request.method == 'POST':
@@ -16,6 +20,8 @@ def add_film(request):
         form = AddFilmForm()
     return render(request, 'addFilm.html', {'form': form})
 
+
+@login_required
 def add_director(request):
     if request.method == 'POST':
         form = AddDirectorForm(request.POST)

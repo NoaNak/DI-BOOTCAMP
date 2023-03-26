@@ -55,7 +55,18 @@ class Rental(models.Model):
     vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE)
 
 class RentalRate(models.Model):
-
     daily_rate = models.DecimalField(max_digits=5, decimal_places=2)
     vehicle_type = models.ForeignKey(VehicleType, on_delete=models.CASCADE)
     vehicle_size = models.ForeignKey(VehicleSize, on_delete=models.CASCADE)
+
+class RentalStation(models.Model):
+    name = models.CharField(max_length=40)
+    capacity = models.DecimalField(max_digits=5, decimal_places=2)
+    address = models.ForeignKey(Address, on_delete=models.CASCADE)
+
+class Address(models.Model):
+    address = models.CharField(max_length=9)
+    address2 = models.CharField(max_length=8)
+    city = models.CharField(max_length=80)
+    country = models.CharField(max_length=20)
+    postal_code = models.IntegerField(max_length=10)
