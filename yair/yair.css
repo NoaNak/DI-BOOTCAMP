@@ -1,0 +1,175 @@
+body{
+    background-image: url("fond-coiffure.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+    border: 2px solid grey;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+
+/* .container2{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-left: 100PX;
+    margin-right: 100PX;
+} */
+
+header{
+    text-align: center;
+    line-height: 8px;
+}
+
+hr{
+    text-align: center;
+    border: white 2px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.second{
+        text-align: center;
+        border: grey 2px solid;
+        margin-left: 50px;
+        margin-right: 50px;
+}
+
+h2{
+    font-family: 'Moon Dance', cursive;
+    color: grey;    
+}
+
+h1{
+    letter-spacing: 6px; 
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    border: grey 2px solid;
+    background-color: grey;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p{
+    color: grey;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+.first{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.fore{
+    text-align: center;
+    border: white 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.three{
+    text-align: center;
+    border: grey 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+a{
+    color: beige;
+    padding-left: 43%;   
+    text-decoration: none; 
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-img img{
+width:100%;
+height:100%;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-ms-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+.container-img:hover img{
+transform:scale(1.2);
+}
+
+.slider-container {
+max-width: 800px;
+position: relative;
+margin: auto;
+height: 350px;
+overflow: hidden;
+}
+
+.menu {
+position: absolute;
+left: 0;
+z-index: 11;
+width: 100%;
+bottom: 0;
+text-align: center;
+}
+
+.menu label {
+cursor: pointer;
+display: inline-block; 
+width: 10px;
+height: 10px;
+background: beige;
+border-radius: 50px;
+margin: 0 0.3em 1em;
+margin-left: 10px;
+}
+
+.menu label:hover,.menu label:focus {
+background: grey;
+}
+
+.slide-input{
+opacity: 0;
+}
+
+.slide-img {
+    border-radius: 20px;
+width: 320px;
+height: 300px;
+position: absolute;
+top: -10px;
+left: 100%;
+z-index: 10;
+transition: left 0s 0.75s;
+margin-top: 20px;
+margin-left: 120px ;
+box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+max-width: 70%;  
+}
+
+[id^="slide"]:checked + .slide-img {
+left: 0;
+z-index: 100;
+transition: left 0.65s ease-out;
+}
+
+
+
+
